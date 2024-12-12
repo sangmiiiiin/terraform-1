@@ -58,3 +58,4 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_ipv4" {
   ip_protocol       = "-1" # 모든 프로토콜 허용
 }
 
+# 추후에 security_group 변경할것
